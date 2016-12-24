@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/padding" android:paddingRight="@dimen/padding" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/non_share_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="6.0"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/like_rumor_post_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.01">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:id="@id/like_rumor_post_icon_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/like_rumor_post_icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1601" android:src="@drawable/heart_inactive" />
+                        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rumor_true_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="True" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/like_rumor_post_badge" android:background="@drawable/grey_rounded_bg" android:paddingLeft="5dp" android:paddingTop="1dp" android:paddingRight="5dp" android:paddingBottom="1dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22dp" android:layout_marginTop="8dp">
+                        <TextView android:textColor="0x106000b" android:id="@id/like_rumor_post_badge_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="4" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/unlike_rumor_post_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/unlike_rumor_post_icon_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+                        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/unlike_rumor_post_icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1601" android:src="@drawable/heart_broken_inactive" />
+                        <TextView android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/rumor_false_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="False" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/unlike_rumor_post_badge" android:background="@drawable/grey_rounded_bg" android:paddingLeft="5dp" android:paddingTop="1dp" android:paddingRight="5dp" android:paddingBottom="1dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp">
+                        <TextView android:textColor="0x106000b" android:id="@id/unlike_rumor_post_badge_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="4" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/comment_post_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/comment_post_icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1601" android:src="@drawable/comment" />
+                    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/comment_post_badge" android:background="@drawable/grey_rounded_bg" android:paddingLeft="5dp" android:paddingTop="1dp" android:paddingRight="5dp" android:paddingBottom="1dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28dp">
+                        <TextView android:textColor="0x106000b" android:id="@id/comment_post_badge_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLength="4" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0">
+                <FrameLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/share_post_container" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/share_post_icon" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1601" android:src="@drawable/share" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_post_container" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="2.0">
+                <FrameLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/message_post" android:layout_width="UNKNOWN_DATA_0x1a01" android:layout_height="wrap_content" android:src="@drawable/message_white" android:scaleType="centerInside" />
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/footer_comment_snippet" android:paddingBottom="@dimen/padding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14dp" android:textColor="0x106000b" android:id="@id/footer_comment_amount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/read_all_comments" />
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <RelativeLayout android:id="@id/footer_comment_icon_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/footer_comment_icon" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_alignParentStart="true" />
+                <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/footer_comment_mod_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:src="@drawable/candid_moderator_icon" android:scaleType="centerInside" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <TextView android:textSize="10dp" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/footer_comment_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/footer_comment_timestamp" android:layout_toRightOf="@id/footer_comment_icon_container" android:layout_centerInParent="true">
+                <ImageView android:id="@id/footer_comment_image" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textColor="0x106000b" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/footer_comment_text" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

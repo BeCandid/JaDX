@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/tab_container" android:background="@uu$h/com_facebook_login_view_com_facebook_confirm_logout" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5">
+        <ImageView android:id="@id/tab_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="9dp" android:textColor="0x106000c" android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAllCaps="true" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tab_notification_badge" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1401" android:layout_height="UNKNOWN_DATA_0x1401" android:layout_marginLeft="10dp">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/red_circle_bg" />
+        <TextView android:textSize="10dp" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/tab_notification_unread" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</FrameLayout>

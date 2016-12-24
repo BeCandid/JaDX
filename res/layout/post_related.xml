@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/post_related" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/post_related_drawable" android:paddingTop="3dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/related" android:scaleType="centerInside" />
+        <TextView android:textColor="#555555" android:id="@id/post_related_text" android:paddingTop="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/related_posts" android:textAllCaps="true" />
+    </LinearLayout>
+</LinearLayout>

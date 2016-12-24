@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/activity_group_base_search" app:fitsSystemWindows="true" app:layout_width="match_parent" app:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar app:id="@id/toolbar" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="wrap_content" app:minHeight="?attr/actionBarSize" app:layout_alignParentTop="true" app:elevation="3dp" app:titleTextColor="0x106000b" />
+    <android.support.v7.widget.RecyclerView app:id="@id/search_results" app:background="#f0f0f0" app:scrollbars="vertical" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar" />
+    <RelativeLayout app:id="@id/search_empty" app:visibility="gone" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_below="@id/toolbar">
+        <TextView app:textStyle="italic" app:id="@id/text_empty" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="80dp" app:text="No match for your search query" app:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout app:orientation="vertical" app:id="@id/search_progress_bar" app:visibility="gone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_centerInParent="true">
+        <ProgressBar app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" style="@g$h/Widget_AppCompat_ProgressBar" />
+        <TextView app:textColor="@color/gossip_grey" app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="Loading..." />
+    </LinearLayout>
+</RelativeLayout>

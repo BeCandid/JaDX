@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:textSize="9dp" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/post_circle_bg" android:paddingTop="25dp" android:paddingBottom="20dp" android:layout_width="UNKNOWN_DATA_0x5a01" android:layout_height="UNKNOWN_DATA_0x5a01" android:text="POST" android:drawableTop="@drawable/create_post_plus" android:onClick="createPost" style="?unknown_attr_ref: 101032b" />
+</FrameLayout>

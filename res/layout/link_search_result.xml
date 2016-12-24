@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/link_search_result_image" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginRight="10dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="5dp" android:layout_toLeftOf="@id/link_search_result_icon" android:layout_toRightOf="@id/link_search_result_image" android:layout_centerVertical="true">
+        <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="0x106000c" android:ellipsize="end" android:id="@id/link_search_result_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="12dp" android:textColor="0x106000c" android:ellipsize="end" android:id="@id/link_search_result_desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="10dp" android:ellipsize="end" android:id="@id/link_search_result_host" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+    <ImageView android:id="@id/link_search_result_icon" android:background="@drawable/orange_button" android:padding="5dp" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:src="@drawable/link_icon_white" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <TextView android:id="@id/link_search_result_separator" android:background="#dddddd" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_alignParentBottom="true" style="?unknown_attr_ref: 1010208" />
+</RelativeLayout>

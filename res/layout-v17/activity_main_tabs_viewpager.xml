@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:id="@id/main_tabs_root" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.becandid.candid.views.MainTabViewPager app:id="@id/viewpager" app:layout_width="match_parent" app:layout_height="match_parent" app:layout_above="@id/bottom_tabs_container" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" app:layout_alignParentStart="true" />
+    <FrameLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/bottom_tabs_container" app:background="?attr/colorPrimary" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_alignParentBottom="true">
+        <android.support.design.widget.TabLayout app:id="@id/bottom_tabs" app:layout_width="match_parent" app:layout_height="match_parent" app:minHeight="50dp" app:tabMode="1" />
+    </FrameLayout>
+    <View app:background="#cccccc" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_above="@id/bottom_tabs_container" />
+    <Button app:textSize="11sp" app:id="@id/create_post_btn" app:background="@drawable/post_circle_bg" app:paddingTop="25dp" app:paddingBottom="20dp" app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginBottom="-20dp" app:text="POST" app:drawableTop="@drawable/create_post_plus" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:onClick="createPost" style="?unknown_attr_ref: 101032b" />
+    <FrameLayout app:id="@id/popup_info_container" app:visibility="gone" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerInParent="true" />
+</RelativeLayout>
